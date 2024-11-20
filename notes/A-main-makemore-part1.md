@@ -18,36 +18,36 @@ We have loaded a dataset containing up to 32K names. We are starting with the fi
 &nbsp;
 
 ##### **CHAPTER** [00:06:24](https://www.youtube.com/watch?v=PaCmpygFfXo&t=384s) exploring the bigrams in the dataset
-Check in code file *(A-Main-Notebook)*
+Check in [code file](../A-Main-Notebook.ipynb)
 
 &nbsp;
 
 ##### **CHAPTER** [00:09:24](https://www.youtube.com/watch?v=PaCmpygFfXo&t=564s) counting bigrams in a python dictionary
-Check in code file *(A-Main-Notebook)*
+Check in [code file](../A-Main-Notebook.ipynb)
 
 &nbsp;
 ##### **CHAPTER** [00:12:45](https://www.youtube.com/watch?v=PaCmpygFfXo&t=765s) counting bigrams in a 2D torch tensor ("training the model")
 Here we are making a 2D Array where we can see in how many instance the second character will follow the first character.
 We have basically created a 2D Array using PyTorch, Instead of that dictionary we manually made. This is a lot cleaner.
-Check in code file *(A-Main-Notebook)*
+Check in [code file](../A-Main-Notebook.ipynb)
 
 &nbsp;
 
 ##### **CHAPTER** [00:18:19](https://www.youtube.com/watch?v=PaCmpygFfXo&t=1099s) visualizing the bigram tensor
-Check in code file *(A-Main-Notebook)*
+Check in [code file](../A-Main-Notebook.ipynb)
 
 &nbsp;
 
 ##### **CHAPTER** [00:20:54](https://www.youtube.com/watch?v=PaCmpygFfXo&t=1254s) deleting spurious (S) and (E) tokens in favor of a single . token
 So the graph that was plotted in the above chapter, there are these one additional row and column where the values are for the cases if `<S>` is in the end and if `<E>` is at the beginning, which doesn't make sense because we used them to map the start and end. Instead we will be replacing them with a `.` So in the graph it will be in the corner end `..` as 0. Therefore we also save space.
-Check in code file *(A-Main-Notebook)*
+Check in [code file](../A-Main-Notebook.ipynb)
 
 &nbsp;
 
 ##### **CHAPTER** [00:24:02](https://www.youtube.com/watch?v=PaCmpygFfXo&t=1442s) sampling from the model
 Now to perform sampling we are using ['multinomial' from PyTorch](https://pytorch.org/docs/stable/generated/torch.multinomial.html#torch-multinomial), which is like this built-in function which says "You give me distributions and I will give you a sample of integers".
 Along with that we are also using ['generator' object from PyTorch](https://pytorch.org/docs/stable/generated/torch.Generator.html#torch.Generator.manual_seed) again to make everything more deterministic - So the values that we get while running the code will remain the same (Won't keep changing)
-Finally we saw how a Bigram model performs better than an untrained model in terms of the output produced. Check in code file *(A-Main-Notebook)*
+Finally we saw how a Bigram model performs better than an untrained model in terms of the output produced. Check in [code file](../A-Main-Notebook.ipynb)
 
 &nbsp;
 
@@ -87,12 +87,9 @@ We do model smoothing, where we basically just add values to the list of values 
 &nbsp;
 
 ------
-```embed
-title: "NeuralNetworks-LanguageModels-1/A-Main-Notebook.ipynb at main · MuzzammilShah/NeuralNetworks-LanguageModels-1"
-image: "https://opengraph.githubassets.com/b86afc9bc61bee3e45c367652c160402d91f2b3adf4ad0294c51d575fe73010f/MuzzammilShah/NeuralNetworks-LanguageModels-1"
-description: "[ 4th November, 2024 - PRESENT ]. Contribute to MuzzammilShah/NeuralNetworks-LanguageModels-1 development by creating an account on GitHub."
-url: "https://github.com/MuzzammilShah/NeuralNetworks-LanguageModels-1/blob/main/A-Main-Notebook.ipynb"
-```
+
+[NOTEBOOK REFERENCE FOR A-MAIN-NOTES](../A-Main-Notebook.ipynb)
+
 -----
 Okay so now, we've trained a respectable, Bigram language model. 
 
@@ -102,4 +99,4 @@ And we saw that:
 - Finally, we also saw that we can evaluate the quality of this model. And the quality of this model is summarized in a single number, which is the negative log likelihood (nll)
 - So, lower the nll number is, the better the model is, because it is giving high probabilities to the actual next characters in all the bigrams in our training set. 
 
-(Contd in [[B-main-makemore-part1]] )
+(Contd)
