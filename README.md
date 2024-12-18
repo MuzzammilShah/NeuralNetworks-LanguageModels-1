@@ -14,7 +14,7 @@ This demonstrated that both methods converge to the same result, highlighting th
 **✍🏻Notes:**
 Hello. These are my Notes and Codes repo of training my second neural network. This is obviously from the video (Makemore - Part 1) put on this by the main man himself, Andrej Karpathy.   \
 \
-**You can view my portfolio blog for a detailed description. You can read it [here](https://muzzammil-ai.netlify.app/personal-projects)** \
+**You can view my portfolio site for a detailed description. You can read it [here](https://muhammedshah.com/personal-projects)** \
 \
 You will find all my notes that I have understood on this in the notes directory. The codes have been broken down into bit-by-bit so that I have a better understanding on them. **I've divided them into 3 sections, so both the notes and the notebooks have the same corresponding names.**
 
