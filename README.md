@@ -1,28 +1,67 @@
-## SET 1- MAKEMORE (PART 1)🔗
+## SET 1 - MAKEMORE (PART 1) 🔗
 
-Introduced to the concept of a bigram character-level language model and explored its training, sampling, and evaluation processes. Evaluation was performed using the Negative Log Likelihood (NLL) loss to assess the model's quality.
-
-The model was trained in two distinct ways, both yielding identical results:
-
-- **Frequency-Based Approach**: The bigram frequencies were counted and normalized directly.
-- **Gradient-Based Optimization**: The counts matrix (the blue table matrix) was optimized using a gradient-based framework, guided by minimizing the NLL loss. \
-\
-This demonstrated that both methods converge to the same result, highlighting their equivalence in achieving the desired outcome.
-
--------
-
-**✍🏻Notes:**
-Hello. These are my Notes and Codes repo of training my second neural network. This is obviously from the video (Makemore - Part 1) put on this by the main man himself, Andrej Karpathy.   \
-\
-**You can view my portfolio site for a detailed description. You can read it [here](https://muhammedshah.com/personal-projects)** \
-\
-You will find all my notes that I have understood on this in the notes directory. The codes have been broken down into bit-by-bit so that I have a better understanding on them. **I've divided them into 3 sections, so both the notes and the notebooks have the same corresponding names.**
+[![Documentation](https://img.shields.io/badge/Documentation-Available-blue)](https://muzzammilshah.github.io/Road-to-GPT/Makemore-part1/)
+![Number of Commits](https://img.shields.io/github/commit-activity/m/MuzzammilShah/NeuralNetworks-LanguageModels-1?label=Commits)
+[![Last Commit](https://img.shields.io/github/last-commit/MuzzammilShah/NeuralNetworks-LanguageModels-1.svg?style=flat)](https://github.com/MuzzammilShah/NeuralNetworks-LanguageModels-1/commits/main)  
+![Project Status](https://img.shields.io/badge/Status-Done-success)
 
 &nbsp;
 
-Follow the codes in order if you are revisiting them. Best way is to start from the notes, as the respective notebooks are linked there itself after the explainations. \
-There are some useful comments inside the notebooks as well. So make sure you read those as well :)
+### **Overview**
+Introduced to the concept of a bigram character-level language model, this repository explores its **training**, **sampling**, and **evaluation** processes. The model evaluation was conducted using the **Negative Log Likelihood (NLL)** loss to assess its quality.
 
--------
+The model was trained in two distinct ways, both yielding identical results:
 
-*See you in the next one!*
+1. **Frequency-Based Approach**: Directly counting and normalizing bigram frequencies.
+2. **Gradient-Based Optimization**: Optimizing the counts matrix using a gradient-based framework guided by minimizing the NLL loss.
+
+This demonstrated that **both methods converge to the same result**, showcasing their equivalence in achieving the desired outcome.
+
+&nbsp;
+
+### **🗂️Repository Structure**
+
+```plaintext
+├── .gitignore
+├── A-Main-Notebook.ipynb
+├── B-Main-Notebook.ipynb
+├── C-Main-Notebook.ipynb
+├── README.md
+├── notes/
+│   ├── A-main-makemore-part1.md
+│   ├── B-main-makemore-part1.md
+│   ├── C-main-makemore-part1.md
+│   └── README.md
+└── names.txt
+```
+
+- **Notes Directory**: Contains detailed notes corresponding to each notebook section.
+- **Jupyter Notebooks**: Step-by-step implementation and exploration of the bigram model.
+- **README.md**: Overview and guide for this repository.
+- **names.txt**: Supplementary data file used in training the model.
+
+&nbsp;
+
+### **📄Instructions**
+
+To get the best understanding:
+
+1. Start by reading the notes in the `notes/` directory. Each section corresponds to a notebook for step-by-step explanations.
+2. Open the corresponding Jupyter Notebook (e.g., `A-Main-Notebook.ipynb` for `A-main-makemore-part1.md`).
+3. Follow the code and comments for a deeper dive into the implementation details.
+
+&nbsp;
+
+### **⭐Documentation**
+
+For a better reading experience and detailed notes, visit my **[Road to GPT Documentation Site](https://muzzammilshah.github.io/Road-to-GPT/)**. 
+
+> **💡Pro Tip**: This site provides an interactive and visually rich explanation of the notes and code. It is highly recommended you view this project from there.
+
+&nbsp;
+
+
+### **✍🏻Acknowledgments**
+Notes and implementations inspired by the **Makemore - Part 1** video by [Andrej Karpathy](https://karpathy.ai/).  
+
+For more of my projects, visit my [Portfolio Site](https://muhammedshah.com).
