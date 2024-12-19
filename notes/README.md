@@ -1,4 +1,4 @@
-## GUIDE TO THE NOTES SECTION
+### **💡Visit the Documentation site**
 
-The names of the notes files will be similar to the ones named for the notebook. You just have to follow them simultaneously. \
-The final output can be seen in `C-main`!
+For a better reading experience and detailed notes, visit my **[Road to GPT Documentation Site](https://muzzammilshah.github.io/Road-to-GPT/)**.
+This site provides an interactive and visually rich explanation of the notes and code. It is highly recommended you view this project from there.
